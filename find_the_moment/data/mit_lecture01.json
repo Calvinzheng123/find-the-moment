@@ -1,0 +1,98 @@
+[
+  {
+    "recording_id": "REPLACE_WITH_YOUR_RECORDING_ID",
+    "query": "What two components make up deep learning?",
+    "present": true,
+    "expected_start": 74.57,
+    "expected_end": 128.392,
+    "category": "definition",
+    "source": "MIT official Lecture 01 captions (caption-derived; spot-check alignment)",
+    "reviewed": false
+  },
+  {
+    "recording_id": "REPLACE_WITH_YOUR_RECORDING_ID",
+    "query": "How is the course grade divided between assignments and the project?",
+    "present": true,
+    "expected_start": 171.15,
+    "expected_end": 195.92,
+    "category": "specific detail",
+    "source": "MIT official Lecture 01 captions (caption-derived; spot-check alignment)",
+    "reviewed": false
+  },
+  {
+    "recording_id": "REPLACE_WITH_YOUR_RECORDING_ID",
+    "query": "What format should the final project take?",
+    "present": true,
+    "expected_start": 195.92,
+    "expected_end": 207.68,
+    "category": "assignment",
+    "source": "MIT official Lecture 01 captions (caption-derived; spot-check alignment)",
+    "reviewed": false
+  },
+  {
+    "recording_id": "REPLACE_WITH_YOUR_RECORDING_ID",
+    "query": "What was the original perceptron designed to do?",
+    "present": true,
+    "expected_start": 835.03,
+    "expected_end": 870.91,
+    "category": "history and mechanism",
+    "source": "MIT official Lecture 01 captions (caption-derived; spot-check alignment)",
+    "reviewed": false
+  },
+  {
+    "recording_id": "REPLACE_WITH_YOUR_RECORDING_ID",
+    "query": "How does gradient descent update a model to reduce its cost?",
+    "present": true,
+    "expected_start": 1449.97,
+    "expected_end": 1493.18,
+    "category": "explanation",
+    "source": "MIT official Lecture 01 captions (caption-derived; spot-check alignment)",
+    "reviewed": false
+  },
+  {
+    "recording_id": "REPLACE_WITH_YOUR_RECORDING_ID",
+    "query": "Find the classification example comparing poor, better, and good fits.",
+    "present": true,
+    "expected_start": 1862.655,
+    "expected_end": 1927.19,
+    "category": "worked example",
+    "source": "MIT official Lecture 01 captions (caption-derived; spot-check alignment)",
+    "reviewed": false
+  },
+  {
+    "recording_id": "REPLACE_WITH_YOUR_RECORDING_ID",
+    "query": "What advice does the instructor give about choosing activation functions?",
+    "present": true,
+    "expected_start": 2199.198,
+    "expected_end": 2282.79,
+    "category": "audience question",
+    "source": "MIT official Lecture 01 captions (caption-derived; spot-check alignment)",
+    "reviewed": false
+  },
+  {
+    "recording_id": "REPLACE_WITH_YOUR_RECORDING_ID",
+    "query": "How does cross-entropy relate predicted classes to the correct label?",
+    "present": true,
+    "expected_start": 3084.66,
+    "expected_end": 3132.28,
+    "category": "explanation",
+    "source": "MIT official Lecture 01 captions (caption-derived; spot-check alignment)",
+    "reviewed": false
+  },
+  {
+    "recording_id": "REPLACE_WITH_YOUR_RECORDING_ID",
+    "query": "How do SQL indexes speed up database queries?",
+    "present": false,
+    "category": "absent topic",
+    "source": "MIT official Lecture 01 captions (caption-derived; spot-check alignment)",
+    "reviewed": false
+  },
+  {
+    "recording_id": "REPLACE_WITH_YOUR_RECORDING_ID",
+    "query": "What ingredients are needed to cook pasta?",
+    "present": false,
+    "category": "absent topic",
+    "source": "MIT official Lecture 01 captions (caption-derived; spot-check alignment)",
+    "reviewed": false
+  }
+]

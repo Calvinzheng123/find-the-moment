@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "find-the-moment"
+version = "0.1.0"
+description = "Search speech and sounds across a saved recording library."
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "numpy>=1.26,<3",
+    "soundfile>=0.12,<1",
+    "requests>=2.31,<3",
+    "torch==2.8.0",
+    "torchvision==0.23.0",
+    "torchaudio==2.8.0",
+    "torchcodec==0.7.0; platform_system == 'Linux'",
+    "sentence-transformers>=6.1.0,<7",
+    "transformers>=5.19,<6",
+    "gradio==5.49.1",
+    "faster-whisper>=1.1,<2",
+    "yt-dlp[default]",
+]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.12,<1"]
+
+[project.scripts]
+find-the-moment = "find_the_moment.web:main"
+
+[tool.setuptools.packages.find]
+include = ["find_the_moment*"]
+
+[tool.setuptools.package-data]
+find_the_moment = ["data/*.json"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E9", "F", "I"]

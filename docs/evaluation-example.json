@@ -1,0 +1,14 @@
+[
+  {
+    "recording_id": "REPLACE_WITH_ID_FROM_TEMPLATE",
+    "query": "REPLACE_WITH_YOUR_MANUALLY_CHECKED_QUERY",
+    "present": true,
+    "expected_start": 0,
+    "expected_end": 10
+  },
+  {
+    "recording_id": "REPLACE_WITH_ID_FROM_TEMPLATE",
+    "query": "REPLACE_WITH_CONTENT_YOU_CONFIRMED_IS_ABSENT",
+    "present": false
+  }
+]
